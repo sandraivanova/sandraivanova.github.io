@@ -1,0 +1,368 @@
+h1 {
+    text-align: center;
+    font-size: 19.5rem;
+}
+h2 {
+    text-align: center;
+    font-size: 1.75rem;
+}
+h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+#center {
+    font-size: 1rem;
+}
+@media (min-width: 800px) {
+    h1 {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    h3 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    #center {
+        font-size: 1.125rem;
+    }
+}
+section {
+    padding: 5em 2em;
+}
+.bbbb {
+    color:black;
+}
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#center {
+    display: block;
+    margin-top:60px;
+}
+#name {
+    display: inline-block;
+    width: 20%;
+    margin-left: 4%;
+    font-size: 30px;
+    font-weight: bold;
+}
+#nav {
+    background-color: palevioletred;
+    position: fixed;
+    display: block;
+    top:0;
+    width: 100%;
+    box-shadow: 0 0 10px #555555;
+}
+@media (min-width: 1101px) {
+    .nav {
+
+        display: inline-block;
+        width: 74%;
+    }
+    .nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .nav ul li {
+        display: inline-block;
+        width: 20%;
+        margin-left: 1%;
+        text-align: center;
+    }
+    .nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 35px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.nav-link span{
+    color: lightgray;
+    font-family: Brush Script MT,cursive;
+    transition: all 0.9s linear;
+}
+.nav-link span:active,.nav-link span:hover {
+    color: mediumpurple;
+}
+@media (max-width: 650px) {
+    .nav {
+        display: none;}
+    #pomalo1101 {
+        display: inline-block;
+        float: right;
+        vertical-align: center;
+    }
+    #pomalo1101 a {
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+    }
+    #ime {
+        display: inline-block;
+    }
+}
+#programing-languages div:nth-of-type(2) img{
+    display: block;
+    margin-left: 22px;
+}
+#bio h1 {
+    font-family: Brush Script MT,cursive;
+}
+#name {
+    font-family: Brush Script MT,cursive;
+}
+#section2 h1 {
+    font-family: Brush Script MT,cursive;
+}
+#section4 h1 {
+    font-family: Brush Script MT,cursive;
+}
+#socials h1,#socials h3{
+    font-family: Brush Script MT,cursive;
+    font-size: 46px;
+}
+@media (max-width: 1101px) {
+    .nav{
+        display: none;}
+    #pomalo1101 {
+        display: inline-block;
+        float: right;
+        vertical-align: center;
+        padding-right: 15%;
+    }
+    #pomalo1101 a {
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+    }
+    #ime {
+        display: inline-block;
+        width: 40%;
+        padding-left: 15%;
+    }
+}
+#footer {
+    color: white;
+    transition: all 0.9s linear;
+}
+#footer:active,#footer:hover {
+    color: black;
+    background: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#section1 {
+    background-color: lightgray;
+    display: block;
+    width: 100%;
+    height: 600px;
+    font-family: Brush Script MT,cursive;
+    font-size: 24px;
+}
+#section1 h2 a {
+    text-decoration: none;
+    color: black;
+}
+#section1 h2 a:hover {
+    text-decoration: none;
+    color: blue;
+}
+#section1 #jas{
+    float: right;
+    width: 15%;
+    margin-right: 250px;
+}
+#section1 #jass {
+    float: right;
+    width: 50%;
+    color: black;
+}
+#section1 #jass h2 a {
+    color: black;
+}
+#section2 {
+    display: block;
+    width: 100%;
+    padding-bottom: 200px;
+    background-image: url("sliki/backkk.jpg");
+    background-size: 100% 100%;
+    background-color: #555;
+    background-blend-mode: multiply;
+    padding-right: -15px;
+}
+#skills {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#skills div {
+    display: inline-block;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#skills div p {
+    font-size: 1.5em;
+}
+@media (max-width: 1080px) {
+    #skills {
+        display: grid;
+        grid-template-columns: 46% 46%;
+        justify-content: center;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+@media (max-width: 550px) {
+    #skills {
+        display: grid;
+        grid-template-columns: 92%;
+        justify-content: center;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+#section3 {
+    background-color:lightgray;
+    width: 100%;
+    height: 520px;
+    background-size: 100% 100%;
+    padding-left: 200px;
+    display: block;
+}
+#section4 {
+    background-color: lightgray;
+    display: block;
+    width: 100%;
+}
+#photos {
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-photos {
+    display: inline-block;
+    overflow: hidden;
+    background: mediumpurple;
+}
+.photos-inner {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    transition: transform 750ms cubic-bezier(.5,0,.5,1),
+    opacity 250ms linear;
+}
+.photos-inner:hover {
+    transform: scale(1.2);
+    opacity: 0.75;
+}
+#section5 {
+    background-color:lightgray;
+    color: black;
+    display: block;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#contact {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+#sdiv {
+    display: inline-block;
+}
+#div-form {
+    display: inline-block;
+    width: 54%;
+    margin-left: 10%;
+}
+.form-group {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid darkgray;
+}
+textarea {
+    resize: vertical;
+}
+button[type="submit"] {
+    width: 100%;
+    border: 1px solid darkgray;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+    background-color: palevioletred;
+}
+footer {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 90px;
+    background-color: palevioletred;
+}
+#up {
+    display: inline-block;
+    height: 64px;
+}
+footer>a {
+    margin-left: 70px;
+}
+#zamene {
+    float: right;
+    width: 60%;
+}
+#zamene p {
+    font-size: 20px;
+}
+#zamene h1 {
+    color: black;
+}
+#zamene-img {
+    margin: 1px;
+    width: 38%;
+    float: left;
+}
+hr {
+    height: 2px;
+}
+button {
+    color: black;
+}
+footer a:last-of-type img {
+    position: absolute;
+    margin-bottom: 70px;
+    margin-top: -19px;
+    margin-left: -15px;
+}
+body {
+    margin: 0;
+}
